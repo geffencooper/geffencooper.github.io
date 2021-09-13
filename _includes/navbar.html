@@ -1,0 +1,32 @@
+<ul class="nav nav-tabs justify-content-center sticky-top bg-light">
+    <li class="nav-item">
+      {% if {{include.curr}} == "Home" %}
+      <a class="nav-link active " href="/">Home</a>
+      {% else %}
+      <a class="nav-link" href="/">Home</a>
+      {% endif %}
+    </li>
+    <li class="nav-item">
+      {% if {{include.curr}} == "About" %}
+      <a class="nav-link active " href="/about">About</a>
+      {% else %}
+      <a class="nav-link" href="/about">About</a>
+      {% endif %}
+    </li>
+    <li class="nav-item">
+      {% if {{include.curr}} == "Experiences" %}
+      <a class="nav-link active " href="/experiences">Experiences</a>
+      {% else %}
+      <a class="nav-link" href="/experiences">Experiences</a>
+      {% endif %}
+    </li>
+    <li class="nav-item">
+      {% if {{include.curr}} == "Projects" %}
+      <a class="nav-link active " href="/projects">Projects</a>
+      {% else %}
+      <a class="nav-link" href="/projects">Projects</a>
+      {% endif %}
+    </li>
+</ul>
+ 
+
