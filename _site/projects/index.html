@@ -61,7 +61,26 @@
             <div class="card-body">
               <h5 class="card-title">Facial Temperature Scanner</h5>
               <p class="card-text">UCSB <a href="https://web.ece.ucsb.edu/~yoga/courses/ECE153B/" target="_blank">ECE 153B </a>Project<br>Winter Quarter 2021</p>
-              <a href="https://sites.google.com/view/facial-temperature-scanner/home?authuser=0" target="_blank" class="btn btn-primary">More Details</a>
+              <a href="https://sites.google.com/view/facial-temperature-scanner/home?authuser=0" target="_blank" class="btn btn-primary">Project Website</a>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+                  Short Description
+                </button>
+              </h2>
+              <div id="collapse" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                  <li><p align="left">For my ECE 153B (Sensor and Peripheral Interface Design) project, I built a facial temperature scanner using the MAX78000FTHR development board that reports if a person has a safe temperature.</p></li>
+                  <li><p align="left">The scanner uses the on-board camera module and CNN accelerator to detect a person’s face in the image frame. The camera feed and instructions (‘move left’, ‘move up’, etc.) are displayed on an LCD to help the person center their face.</a>.</p></li>
+                  <li><p align="left">Once centered, an IR temperature sensor will measure the person’s facial temperature which is then reported on the LCD</p></li>
+                  <li><p align="left">Further details can be found on the project website above.</p></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -81,6 +100,25 @@
               <a href="https://github.com/geffencooper/nn_from_scratch/blob/master/README.md" target="_blank" class="btn btn-primary">GitHub Repo</a>
             </div>
           </div>
+          <div class="accordion" id="accordionExample2">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  Short Description
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample2">
+                <div class="accordion-body">
+                  <ul>
+                  <li><p align="left">I programmed a set of python classes for building simple neural networks (i.e. fully connected feedforward) from scratch (i.e. using only NumPy and not frameworks like PyTorch or TensorFlow)</p></li>
+                  <li><p align="left">The main purpose was to get a stronger understanding of back propagation by implementing it from scratch.</a>.</p></li>
+                  <li><p align="left">I want to expand the functionality of this project in the future to have regularization techniques, convolution layers, RNN layers, and an automatic differentiation tool.</p></li>
+                  <li><p align="left">Further details can be found on the project repo above.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -89,13 +127,32 @@
       <div class="card mb-4" style="max-width: 500px;">
         <div class="row g-0">
           <div class="col-md-4 p-3 d-flex align-items-center">
-            <img src="/imgs/braincorp_logo.png" class="img-fluid rounded-start rounded-end">
+            <img src="/imgs/fpga.jpg" class="img-fluid rounded-start rounded-end">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Software Internship</h5>
-              <p class="card-text">Firmware Team, <a href="https://www.braincorp.com/">Brain Corp</a><br>Summer 2020</p>
-              <a href="#" class="btn btn-primary">More Details</a>
+              <h5 class="card-title">Chromatic Tuner</h5>
+              <p class="card-text">ECE 153A<br>Fall 2020</p>
+              <a href="/imgs/chromatic_tuner.pdf" target="_blank" class="btn btn-primary">Project Report</a>
+              <a href="https://drive.google.com/file/d/1X8vUMob-0IWzD6W3_tXU_qOZ0MgV-Zgr/view" target="_blank" class="btn btn-primary">Project Demo</a>
+              <a href="https://drive.google.com/drive/u/3/folders/1w-Yg4uiH-sv1UAo0amv7vSDjLt3omJww" target="_blank" class="btn btn-primary" style="margin-top: 0.15cm;">Project Code </a>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample3">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  Short Description
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample3">
+                <div class="accordion-body">
+                  <ul>
+                  <li><p align="left">For our ECE 153A (Hardware/Software Interface) final lab, we were tasked with building a chromatic tuner that detects semi-tones using an FFT on audio samples and displays information to an LCD GUI in real-time</p></li>
+                  <li><p align="left">Further details can be found in the project report, demo, and code above.</p></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -103,16 +160,106 @@
     </div>
   
     <div class="col">
-      <div class="card mb-4" style="max-width: 540px;">
+      <div class="card mb-4" style="max-width: 500px;">
         <div class="row g-0">
           <div class="col-md-4 p-3 d-flex align-items-center">
-            <img src="/imgs/flir_logo.png" class="img-fluid rounded-start rounded-end">
+            <img src="/imgs/car.jpg" class="img-fluid rounded-start rounded-end">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Software Intern</h5>
-              <p class="card-text">Security Team, <a href="https://www.flir.com/">FLIR Systems</a><br>Summer 2019</p>
-              <a href="#" class="btn btn-primary">More Details</a>
+              <h5 class="card-title">Tracking Robot</h5>
+              <p class="card-text">Personal Project<br>November 2020 - January 2021</p>
+              <a href="https://github.com/geffencooper/sparrowhawk" target="_blank" class="btn btn-primary">GitHub Repo</a>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample4">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  Short Description
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample4">
+                <div class="accordion-body">
+                  <ul>
+                  <li><p align="left">I built a robot using an RC car, STM32, and Raspberry Pi that can track a person using ROS and OpenCV.</p></li>
+                  <li><p align="left">The STM32 controls the robot motors and peripherals while the Raspberry Pi captures video frames and transmits them to my laptop.</p></li>
+                  <li><p align="left">My laptop is in charge of the computer vision related tasks and communicates the relevant information back to the Raspberry Pi using ROS. The Raspberry Pi then executes a state machine and transmits commands to the STM32 over UART.</p></li>
+                  <li><p align="left">All the details and code (and a demo) are in the GitHub repo above</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card mb-4" style="max-width: 500px;">
+        <div class="row g-0">
+          <div class="col-md-4 p-3 d-flex align-items-center">
+            <img src="/imgs/step_sequencer.jpg" class="img-fluid rounded-start rounded-end">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Analog Step Sequencer</h5>
+              <p class="card-text"><a href="https://ucsbieee.org/" target="_blank">UCSB IEEE</a> Guided Project<br>2020-2021</p>
+              <a href="https://ucsbieee.org/projects/stepsequencer/" target="_blank" class="btn btn-primary">Project Website</a>
+              <a href="https://www.youtube.com/watch?v=AfA74cJp1H0" target="_blank" class="btn btn-primary">Project Demo</a>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample5">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  Short Description
+                </button>
+              </h2>
+              <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample5">
+                <div class="accordion-body">
+                  <ul>
+                  <li><p align="left">During the 2020-2021 School year I was the project manager and hardware project lead for UCSB's IEEE student branch</p></li>
+                  <li><p align="left">I designed a hardware project as well as a set of lessons to teach other students at UCSB how to build a hardware project from scratch</p></li>
+                  <li><p align="left">The project website above contains all the lesson notes, slides, and recordings.</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card mb-4" style="max-width: 500px;">
+        <div class="row g-0">
+          <div class="col-md-4 p-3 d-flex align-items-center">
+            <img src="/imgs/arcade.jpg" class="img-fluid rounded-start rounded-end">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Virtual Arcade System</h5>
+              <p class="card-text"><a href="https://ucsbieee.org/" target="_blank">UCSB IEEE</a> Guided Project<br>2019-2020</p>
+              <a href="https://ucsbieee.org/projects/arcadesystem/" target="_blank" class="btn btn-primary">Project webpage</a>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample6">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                  Short Description
+                </button>
+              </h2>
+              <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample6">
+                <div class="accordion-body">
+                  <ul>
+                    <li><p align="left">During the 2019-2020 School year I was the software project lead for UCSB's IEEE student branch</p></li>
+                    <li><p align="left">I designed a software project as well as a set of lessons to teach other students at UCSB how to build a C++ project from scratch.</p></li>
+                    <li><p align="left">The project website above contains all the lesson notes.</p></li>
+                    </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
